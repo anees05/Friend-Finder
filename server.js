@@ -11,6 +11,6 @@ app.use(express.static(path.join(__dirname, './app/public')));
 require(path.join(__dirname, './app/routing/apiRoutes'))(app);
 require(path.join(__dirname, './app/routing/htmlRoutes'))(app);
 
-app.listen(PORT, function () {
-    console.log('BFFL Finder app is listening on PORT: ' + PORT);
+app.listen(PORT, function() {
+  console.log('BFFL Finder app is listening on PORT: ' + PORT);
 });
